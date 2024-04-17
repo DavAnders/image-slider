@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="carouselContainer" class="carousel-container">
+      <div id="carouselSlides" class="carousel-slides">
+        <img src="media/puppy1.jpg" alt="puppy 1" />
+        <img src="media/puppy2.jpg" alt="puppy 2" />
+        <img src="media/puppy3.jpg" alt="puppy 3" />
+        <img src="media/puppy4.jpg" alt="puppy 4" />
+      </div>
+      <div class="carousel-navigation">
+        <button class="prev" onclick="plusSlides(-1)">←</button>
+        <button class="next" onclick="plusSlides(1)">→</button>
+      </div>
+      <div class="carousel-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+  </body>
+</html>
